@@ -49,6 +49,7 @@ else
     endif
 endif
 
+override ARCH         := RVE
 # export all overrided variables
 export ARCH
 export VECT_IRQ
