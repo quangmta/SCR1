@@ -1,5 +1,3 @@
-
-
 module scr1_tb_log_cmd();
 
 always_ff @(posedge scr1_top_tb_ahb.i_top.i_imem_ahb.clk) begin
@@ -9,7 +7,7 @@ always_ff @(posedge scr1_top_tb_ahb.i_top.i_imem_ahb.clk) begin
             (scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31 : 0] == 32'h057E4505)
         ) begin
             // detect and command
-            $display("Detect ADDI command");
+            $display("PC: %04h",scr1_top_tb_ahb.i_top.i_core_top.i_pipe_top.curr_pc);
         end
     end
 end
