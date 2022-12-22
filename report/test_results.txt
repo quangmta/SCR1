@@ -1,1 +1,1 @@
-                         add.hex		OK	  PASS
+                        addi.hex		OK	  PASS
