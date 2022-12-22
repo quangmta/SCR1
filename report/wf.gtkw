@@ -1,19 +1,18 @@
 [*]
 [*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
-[*] Thu Dec 22 03:04:46 2022
+[*] Thu Dec 22 05:27:10 2022
 [*]
-[dumpfile] "/home/quang/lab_3/SCR1/build/verilator_wf_AHB_MAX_imc_IPIC_1_TCM_1_VIRQ_1_TRACE_1/simx.vcd"
-[dumpfile_mtime] "Thu Dec 22 02:20:57 2022"
+[dumpfile] "/home/quang/lab3/SCR1/build/verilator_wf_AHB_MAX_imc_IPIC_1_TCM_1_VIRQ_1_TRACE_1/simx.vcd"
+[dumpfile_mtime] "Thu Dec 22 05:25:54 2022"
 [dumpfile_size] 788170
-[savefile] "/home/quang/lab_3/SCR1/report/wf.gtkw"
-[timestart] 122
+[savefile] "/home/quang/lab3/SCR1/report/wf.gtkw"
+[timestart] 449
 [size] 1846 893
-[pos] -151 -151
-*-4.000000 187 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[pos] -1 -1
+*-4.000000 505 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] scr1_top_tb_ahb.
 [treeopen] scr1_top_tb_ahb.i_top.
 [treeopen] scr1_top_tb_ahb.i_top.i_core_top.
-[treeopen] scr1_top_tb_ahb.i_top.i_core_top.i_pipe_top.
 [sst_width] 264
 [signals_width] 275
 [sst_expanded] 1
@@ -42,10 +41,54 @@ scr1_top_tb_ahb.i_top.i_core_top.i_pipe_top.i_pipe_exu.idu2exu_use_imm_i
 scr1_top_tb_ahb.i_top.i_core_top.core2imem_req_o
 @200
 -
-@29
+@28
 scr1_top_tb_ahb.i_top.i_core_top.i_pipe_top.i_pipe_exu.exu2mprf_w_req_o
 @22
 scr1_top_tb_ahb.i_top.i_core_top.i_pipe_top.i_pipe_exu.exu2mprf_rd_addr_o[4:0]
 scr1_top_tb_ahb.i_top.i_core_top.i_pipe_top.i_pipe_exu.exu2mprf_rd_data_o[31:0]
+@200
+-
+@28
+scr1_top_tb_ahb.i_top.i_imem_ahb.imem_req
+scr1_top_tb_ahb.i_top.i_imem_ahb.imem_resp[1:0]
+@22
+scr1_top_tb_ahb.i_top.i_imem_ahb.imem_addr[31:0]
+@c00023
+scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+@28
+(0)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(1)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(2)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(3)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(4)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(5)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(6)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(7)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(8)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(9)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(10)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(11)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(12)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(13)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(14)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(15)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(16)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(17)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(18)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(19)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(20)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(21)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(22)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(23)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(24)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(25)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(26)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(27)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(28)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(29)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(30)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+(31)scr1_top_tb_ahb.i_top.i_imem_ahb.imem_rdata[31:0]
+@1401201
+-group_end
 [pattern_trace] 1
 [pattern_trace] 0
